@@ -1,0 +1,33 @@
+.App {
+  background-color: #eceeee;
+  height: 100vh;
+  width: 100%;
+  padding: 100px 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container{
+  width:100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 25px;
+  padding:0 25px;
+}
+
+.container .header{
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  margin-bottom: 10px;
+}
+
+.container .column .list .card{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+}
